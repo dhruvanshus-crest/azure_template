@@ -611,7 +611,7 @@
                   "httpsOnly": true,
                   "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]",
                   "siteConfig": {
-                    "minimumTlsVersion": "TLS1_2",
+                    "minTlsVersion": "1.2",
                     "ftpsState": "Disabled",
                     "cors": {
                       "allowedOrigins": [
